@@ -3,6 +3,8 @@ class UserClass{
     private static $instance ;
     private static $cookie ;
 	private static $header ;
+	private $url = 'https://www.zhihu.com/api/v4/members/';
+	private $getpara = '?per_page=10&include=data%5B%2A%5D.answer_count%2Carticles_count%2Cfollower_count%2Cis_followed%2Cis_following%2Cbadge%5B%3F%28type%3Dbest_answerer%29%5D.topics&limit=10&offset=' ;
 	public static function getinstances($cookie){
         if(empty($instance)){
             self::$cookie = $cookie ;
@@ -12,7 +14,9 @@ class UserClass{
         return self::$instance ;
     }
 
-	public function sendHttp($url,$method="get",$params=array()){
+
+	//返回的是json数据
+	public function sendHttp($url,$method="get",$header='',$params=array()){
 		$ch = curl_init() ;
 		curl_setopt($ch,CURLOPT_URL,$url) ;
 		//关掉证书认证
@@ -20,7 +24,7 @@ class UserClass{
 		curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, false);
 		//设置已变量形式返回
 		curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
-		curl_setopt($ch,CURLOPT_HTTPHEADER,self::$header);
+		curl_setopt($ch,CURLOPT_HTTPHEADER,self::$header);	
 		switch($method){
 			case "get":
 				curl_setopt($ch,CURLOPT_HTTPGET,true);
@@ -56,6 +60,32 @@ class UserClass{
 	
 	}
 
+	//获取用户数据
+	private function getUserData($data){
+		$data = json_decode($data,true) ;
+		if(!empty($data['data'])){
+			return $data['data'] ;
+		}
+		return false ;
+	}
+
+	//获取用户关注了被关注的列表
+	public function getFollowees($user_token,$type='followees',$offset=0){
+		$url = $this->url.$user_token.'/'.$type.$this->getpara.$offset ;
+		$followees = $this->sendHttp($url) ;
+		$followees = $this->getUserData($followees) ;
+		if($followees){
+			return $followees ;
+		}
+		return false ;
+	}
+
+	//获取用户信息 暂时返回 关注多少人 被关注多少人
+	public function getUserInfo($user_token){
+		$url = 'https://www.zhihu.com/people/'.$user_token.'/activities';
+		$userinfo = $this->sendHttp($url) ;
+		return $userinfo ;
+	}
 
 
 }
