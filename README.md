@@ -4,3 +4,4 @@ php the right way 中文 http://laravel-china.github.io/php-the-right-way/#progr
 git 的教程 http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/001374829472990293f16b45df14f35b94b3e8a026220c5000
 
 laravel的容器解释 http://laravelacademy.org/post/769.html
+xss的一些文章 http://www.freebuf.com/author/Black-Hole
