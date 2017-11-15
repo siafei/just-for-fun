@@ -12,4 +12,6 @@ xss的一些文章 http://www.freebuf.com/author/Black-Hole
 
 PHP7内核剖析 https://github.com/pangudashu/php7-internal
 
+kali http://git.oschina.net/wizardforcel/kali-linux-web-pentest-cookbook-zh
+
 laravel 速查   https://cs.laravel-china.org/
