@@ -17,3 +17,5 @@ kali http://git.oschina.net/wizardforcel/kali-linux-web-pentest-cookbook-zh
 laravel 速查   https://cs.laravel-china.org/
 
 burpsuite 破解  https://www.52pojie.cn/thread-691448-1-1.html
+
+过关hack https://www.hackthis.co.uk/
