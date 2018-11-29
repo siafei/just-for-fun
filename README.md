@@ -22,3 +22,5 @@ burpsuite 破解  https://www.52pojie.cn/thread-691448-1-1.html
 
 
 乌云镜像   漏洞  Burp Suite应用分享之Web漏洞扫描 
+
+burpsuite   gitbook   https://t0data.gitbooks.io/burpsuite/content/chapter3.html
