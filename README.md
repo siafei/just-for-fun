@@ -26,3 +26,5 @@ burpsuite 破解  https://www.52pojie.cn/thread-691448-1-1.html
 burpsuite   gitbook   https://t0data.gitbooks.io/burpsuite/content/chapter3.html
 
 phpstorm    https://licensez.com/
+
+html实体   https://dev.w3.org/html5/html-author/charref
