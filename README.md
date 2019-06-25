@@ -30,3 +30,5 @@ phpstorm    https://licensez.com/
 html实体   https://dev.w3.org/html5/html-author/charref
 
 在线工具    https://tool.lu/software/
+
+https://xss.rocks/xss.css
