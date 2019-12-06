@@ -35,3 +35,4 @@ https://xss.rocks/xss.css
 
 啊机的blog  https://heimo-he.github.io
 
+xsssheet   https://portswigger.net/web-security/cross-site-scripting/cheat-sheet
