@@ -34,5 +34,6 @@ html实体   https://dev.w3.org/html5/html-author/charref
 https://xss.rocks/xss.css
 
 啊机的blog  https://heimo-he.github.io
+啊心的blog  http://blog.test59.com/blogs/cuua/categories/go
 
 xsssheet   https://portswigger.net/web-security/cross-site-scripting/cheat-sheet
