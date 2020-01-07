@@ -37,3 +37,5 @@ https://xss.rocks/xss.css
 啊心的blog  http://blog.test59.com/blogs/cuua/categories/go
 
 xsssheet   https://portswigger.net/web-security/cross-site-scripting/cheat-sheet
+
+golang    https://yar999.gitbooks.io/gopl-zh/content/
