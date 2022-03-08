@@ -39,3 +39,6 @@ https://xss.rocks/xss.css
 xsssheet   https://portswigger.net/web-security/cross-site-scripting/cheat-sheet
 
 golang    https://yar999.gitbooks.io/gopl-zh/content/
+
+
+k8s https://www.yuque.com/fairy-era/yg511q/hg3u04#8af417b4
