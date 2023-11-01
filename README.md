@@ -40,20 +40,16 @@ xsssheet   https://portswigger.net/web-security/cross-site-scripting/cheat-sheet
 
 golang    https://yar999.gitbooks.io/gopl-zh/content/
 
-
 k8s https://www.yuque.com/fairy-era/yg511q/hg3u04#8af417b4
-
-
-
-
-
-
-电商东西
-
-https://www.canva.cn/create/e-commerce-details-page/  商品图设计
 
 golang https://draveness.me/golang/docs/part2-foundation/ch03-datastructure/golang-array/
 
 jet https://3.jetbra.in/
 
 im http://www.52im.net/
+
+
+
+
+电商东西
+https://www.canva.cn/create/e-commerce-details-page/  商品图设计
